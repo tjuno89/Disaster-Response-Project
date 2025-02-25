@@ -42,12 +42,12 @@ This project is part of the Udacity Data Scientist Nanodegree. The goal is to bu
 
     - To run the ETL pipeline that cleans data and stores it in the database:
       ```sh
-      python process_data.py data/messages.csv data/categories.csv data/DisasterResponse.db
+      py process_data.py messages.csv categories.csv DisasterResponse.db
       ```
 
     - To run the ML pipeline that trains the classifier and saves the model:
       ```sh
-      python train_classifier.py data/DisasterResponse.db models/classifier.pkl
+      py train_classifier.py DisasterResponse.db classifier.pkl
       ```
 
 2. You can find detailed code and explanations in the ETL and ML Notebooks.
@@ -56,12 +56,12 @@ This project is part of the Udacity Data Scientist Nanodegree. The goal is to bu
     - Set the Flask App Environment Variable:
  
      ```sh
-     export FLASK_APP=app.py
+     export FLASK_APP=run.py
      ```
     - On Windows:
       
      ```sh
-     set FLASK_APP=app.py
+     set FLASK_APP=run.py
      ```
       
     - Start the Flask App:
