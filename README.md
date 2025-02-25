@@ -47,7 +47,7 @@ This project is part of the Udacity Data Scientist Nanodegree. The goal is to bu
 
     - To run the ML pipeline that trains the classifier and saves the model:
       ```sh
-      py train_classifier.py DisasterResponse.db classifier.pkl
+      py train_classifier.py DisasterResponse.db model.pkl
       ```
 
 2. You can find detailed code and explanations in the ETL and ML Notebooks.
