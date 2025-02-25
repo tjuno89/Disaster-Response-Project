@@ -51,6 +51,28 @@ This project is part of the Udacity Data Scientist Nanodegree. The goal is to bu
       ```
 
 2. You can find detailed code and explanations in the ETL and ML Notebooks.
+3. Running the App
+    
+    - Set the Flask App Environment Variable:
+ 
+     ```sh
+     export FLASK_APP=app.py
+     ```
+    - On Windows:
+      
+     ```sh
+     set FLASK_APP=app.py
+     ```
+      
+    - Start the Flask App:
 
+     ```sh
+     flask run
+     ```
+
+     ```sh
+     The  Flask app will be running at http://127.0.0.1:5000/.
+     ```
+     
 ## Acknowledgements
 This project is part of the Udacity Data Scientist Nanodegree program.
